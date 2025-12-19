@@ -527,11 +527,6 @@
 #                 print(f"{i}. {doc}")
 #         else:
 #             print("⚠️ No nearby doctors found.")
-#     except Exception as e:
-#         print(f"⚠️ Error fetching doctors: {e}")
-
-#     print("\n🙏 This is not a medical diagnosis. Please consult a healthcare professional.")
-
 import json
 from langchain_community.chat_models import ChatOllama
 from ner_module import extract_medical_entities
